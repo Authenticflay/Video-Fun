@@ -4,7 +4,7 @@ import { Home, Video, Image as ImageIcon, FileText, DollarSign, PlusCircle, Sett
 
 // --- MOCK DATA AND TYPES (In a real app, these would be in separate files) ---
 
-export enum ContentType {
+export enum ContentType  {
   VIDEO = 'video',
   PHOTO = 'photo',
   ARTICLE = 'article',
@@ -529,3 +529,4 @@ function App() {
 }
 
 export default App;
+
